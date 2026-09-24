@@ -172,7 +172,7 @@ MCP Client
 However, when the same method is invoked from the MCP Tool Tester or an MCP client, the request times out after 60 seconds.
 
 ```text
-WebSocket error: REST tool call to /mcp/test/v1/tool_call timed out after 60s
+WebSocket error: REST tool call to /mcp/atest/v1/tool_call timed out after 60s
 ```
 
 This occurs even though the same agent execution completes when called directly from ObjectScript.
