@@ -23,7 +23,7 @@ Authorization: SuperUer:SYS
 POST http://localhost:51503/mcp
 Accept: application/json, text/event-stream
 Content-Type: application/json;charset=utf-8
-Mcp-Session-Id: 17e52481-b28f-4e12-ab83-1b77cb9f19da
+Mcp-Session-Id: 7ed38752-35be-4fef-98df-40e2a4166162
 Authorization: SuperUer:SYS
 
 {
@@ -34,11 +34,11 @@ Authorization: SuperUer:SYS
 }
 
 
-### 池田さんテスト
+### mcp_btest_AskDatabase
 POST http://localhost:51503/mcp
 Accept: application/json, text/event-stream
 Content-Type: application/json;charset=utf-8
-Mcp-Session-Id: 17e52481-b28f-4e12-ab83-1b77cb9f19da
+Mcp-Session-Id: 7ed38752-35be-4fef-98df-40e2a4166162
 Authorization: SuperUer:SYS
 
 {
@@ -46,9 +46,9 @@ Authorization: SuperUer:SYS
   "id": 3,
   "method": "tools/call",
   "params": {
-    "name": "mcp_test_AskDatabase",
+    "name": "mcp_btest_AskDatabase",
     "arguments": {
-      "question": "男性の患者情報を教えて"
+      "question": "What kind of data is available?"
     }
   }
 }
